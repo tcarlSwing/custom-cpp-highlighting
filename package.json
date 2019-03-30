@@ -1,0 +1,22 @@
+{
+    "name": "custom-cpp-highlighting",
+    "displayName": "Custom C++ Highlighting",
+    "description": "Better C++ highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "tcarlswing",
+    "contributes": {
+        "themes": [
+            {
+                "label": "custom-cpp-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/custom-cpp-dark-color-theme.json"
+            }
+        ]
+    }
+}
