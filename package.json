@@ -1,15 +1,19 @@
 {
     "name": "custom-cpp-highlighting",
     "displayName": "Custom C++ Highlighting",
-    "description": "Better C++ highlighting",
+    "description": "C++ syntax highlighting strongly influenced by Visual Studio's Dark theme syntax highlighting.",
     "version": "0.0.1",
+    "publisher": "tcarlswing",
+    "author": {
+        "name": "Thomas",
+        "email": "tcarlswing@outlook.com"
+    },
     "engines": {
         "vscode": "^1.32.0"
     },
     "categories": [
         "Themes"
     ],
-    "publisher": "tcarlswing",
     "contributes": {
         "themes": [
             {
@@ -18,5 +22,13 @@
                 "path": "./themes/custom-cpp-dark-color-theme.json"
             }
         ]
-    }
+    },
+    "extensionDependencies": [
+        "jeff-hykin.better-cpp-syntax"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tcarlSwing/custom-cpp-highlighting.git"
+    },
+    "license": "MIT"
 }
