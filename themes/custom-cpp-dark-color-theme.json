@@ -62,6 +62,7 @@
 			"name": "Defined Types",
 			"scope": [
 				"storage.type",
+				"entity.name.type",
 				"entity.name.type.cpp",
 				"entity.name.type.template.cpp",
 				"support.type.posix-reserved"
