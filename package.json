@@ -2,7 +2,7 @@
     "name": "custom-cpp-highlighting",
     "displayName": "Custom C++ Highlighting",
     "description": "C++ syntax highlighting strongly influenced by Visual Studio's Dark theme syntax highlighting.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "tcarlswing",
     "author": {
         "name": "Thomas",
