@@ -2,10 +2,16 @@
 	"name": "custom-cpp-dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#131416",
-		"editor.foreground": "#d4d4d4",
+		"editor.background": "#0b0b0c",
+		"editor.foreground": "#dfd2d2",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"activityBar.background": "#0b0b0c",
+		"activityBar.border": "#696969",
+		"debugToolBar.background": "#0b0b0c",
+		"debugToolBar.border": "#696969",
+		"sideBar.background": "#0b0b0c",
+		"sideBar.border": "#696969"
 	},
 	"tokenColors": [
 		{
@@ -17,7 +23,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#4f992d"
 			}
 		},
 		{
@@ -27,7 +33,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#dfd2d2"
 			}
 		},
 		{
@@ -52,10 +58,11 @@
 		{
 			"name": "Primitive Types",
 			"scope": [
-				"storage.type.primitive.cpp"
+				"storage.type.primitive.cpp",
+				"storage.type.built-in.primitive.cpp"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
@@ -70,7 +77,7 @@
 				"support.type.posix-reserved"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#67dbc4"
 			}
 		},
 		{
@@ -84,7 +91,7 @@
 				"storage.type.template.argument.class"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
@@ -93,17 +100,19 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
 			"name": "Namespace Identifiers",
 			"scope": [
 				"entity.name.namespace",
-				"entity.name.namespace.scope-resolution.cpp"
+				"entity.name.namespace.scope-resolution.cpp",
+				"entity.name.scope-resolution.namespace.using.cpp",
+				"entity.name.scope-resolution.cpp"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#67dbc4"
 			}
 		},
 		{
@@ -114,7 +123,7 @@
 				"storage.type.namespace.definition"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
@@ -126,7 +135,7 @@
 				"keyword.control.return.cpp"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
@@ -135,7 +144,7 @@
 				"keyword.control.exception"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
@@ -170,7 +179,7 @@
 				"storage.type.modifier.access.control",
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
@@ -181,7 +190,7 @@
 				"entity.name.function.member.cpp"
 			],
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#dfd2d2"
 			}
 		},
 		{
@@ -195,7 +204,7 @@
 				"keyword.operator.logical.cpp"
 			],
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#dfd2d2"
 			}
 		},
 		{
@@ -204,18 +213,19 @@
 				"keyword.operator.cast"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
 			"name": "Memory Operators",
 			"scope": [
 				"keyword.operator.memory",
+				"keyword.operator.new.cpp",
 				"keyword.operator.delete.array",
 				"keyword.operator.delete.array.bracket"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
@@ -226,7 +236,7 @@
 				"string.quoted.double.cpp"
 			],
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#ee9876",
 			}
 		},
 		{
@@ -256,7 +266,7 @@
 				"constant.language.cpp"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#449be2"
 			}
 		},
 		{
