@@ -277,6 +277,25 @@
 			"settings": {
 				"foreground": "#b5cea8"
 			}
+		},
+		{
+			"name": "CMake Keywords and Variables",
+			"scope": [
+				"keyword.cmake",
+				"storage.source.cmake"
+			],
+			"settings": {
+				"foreground": "#449be2"
+			}
+		},
+		{
+			"name": "CMake Entities",
+			"scope": [
+				"entity.source.cmake"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
 		}
 	]
 }
